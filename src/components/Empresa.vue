@@ -13,7 +13,7 @@
                 <label for="tipo">Tipo empresa</label>
                         <select id="tipo" class="form-control">
                             <option selected>Tipo empresa</option>
-                            <option>{{}}</option>
+                            
                         </select>
             </div>
         </div>
