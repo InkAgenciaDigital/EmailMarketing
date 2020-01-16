@@ -17,20 +17,32 @@
                     > Persona</router-link>
                 </li>
                 <li class="nav-item">
+                    <router-link
+                        :to="{name: 'PrincipalProyecto'}"
+                        class="nav-link"
+                    > Proyecto</router-link>
+                </li>
+                <li class="nav-item">
                      <router-link
-                        :to="{ name: 'Comportamiento'}"
+                        :to="{ name: 'PrincipalMedio'}"
+                        class="nav-link"
+                    > Medio</router-link>
+                </li>
+                <li class="nav-item">
+                     <router-link
+                        :to="{ name: 'PrincipalComportamiento'}"
                         class="nav-link"
                     > Comportamientos</router-link>
                 </li>
                 <li class="nav-item">
                      <router-link
-                        :to="{name: 'Objetivo'}"
+                        :to="{name: 'PrincipalObjetivo'}"
                         class="nav-link"
                     > Objetivos</router-link>
                 </li>
                 <li class="nav-item">
                      <router-link
-                        :to="{name: 'Proceso'}"
+                        :to="{name: 'PrincipalProceso'}"
                         class="nav-link"
                     > Proceso</router-link>
                 </li>
@@ -64,7 +76,7 @@
 <style>
 .alt{
     padding: 1%;
-    padding-left: 30%;
+    padding-left: 18%;
 }
 .alt1{
     padding: 1%;

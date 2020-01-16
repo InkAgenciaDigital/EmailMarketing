@@ -62,10 +62,7 @@
                         
                     
                     </div>  
-                    <div class="form-group">
-                        <label for="otro">Otros</label>
-                        <input type="text" class="form-control" id="otro" placeholder="¿Cúal otro medio?">
-                    </div>            
+                                
                 </div>
 
                 

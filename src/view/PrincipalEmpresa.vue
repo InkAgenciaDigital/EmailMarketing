@@ -15,7 +15,7 @@
                 <tr>
                 <th scope="col">#</th>
                 <th scope="col">Empresa</th>
-                <th scope="col">Nombre del proyecto</th>
+                <th scope="col">Tipo de empresa</th>
                 <th scope="col">Acción</th>
                 </tr>
             </thead>
@@ -23,7 +23,7 @@
                 <tr>
                 <th scope="row">1</th>
                 <td> <label class="" for="empresa">Empresa</label> </td>
-                <td> <label class="" for="proyecto">Proyecto</label> </td>
+                <td> <label class="" for="proyecto">Tipo de empresa</label> </td>
                 <td>
 
                      <router-link
@@ -37,7 +37,7 @@
                 <tr>
                 <th scope="row">2</th>
                 <td> <label class="" for="empresa">Empresa</label> </td>
-                <td> <label class="" for="proyecto">Proyecto</label> </td>
+                <td> <label class="" for="proyecto">Tipo de empresa</label> </td>
                 <td>
                     <router-link
                         :to="{name: 'Empresa'}"
@@ -49,7 +49,7 @@
                 <tr>
                 <th scope="row">3</th>
                 <td> <label class="" for="empresa">Empresa</label> </td>
-                <td> <label class="" for="proyecto">Proyecto</label> </td>
+                <td> <label class="" for="proyecto">Tipo de empresa</label> </td>
                 <td>
                     <router-link
                         :to="{name: 'Empresa'}"
@@ -66,6 +66,11 @@
             <br>
             <h1>Persona</h1>
             <br>
+            <router-link
+                :to="{name: 'Persona'}"
+                class="b btn-info"
+            > Crear</router-link>
+            <br><br><br>
             <table class="table">
             <thead class="thead-dark">
                 <tr>
@@ -83,7 +88,7 @@
                 <td>
                     
                      <router-link
-                        :to="{name: 'Empresa'}"
+                        :to="{name: 'Persona'}"
                         class="bp btn-primary"
                     >Modificar</router-link>
                     <button type="button" class="bpn btn-danger">Eliminar</button>
@@ -96,7 +101,7 @@
                 <td> <label class="" for="apellido">Apellido</label> </td>
                 <td>
                     <router-link
-                        :to="{name: 'Empresa'}"
+                        :to="{name: 'Persona'}"
                         class="bp btn-primary"
                     >Modificar</router-link>
                     <button type="button" class="bpn btn-danger">Eliminar</button>
@@ -108,7 +113,7 @@
                 <td> <label class="" for="proyecto">Apellido</label> </td>
                 <td>
                     <router-link
-                        :to="{name: 'Empresa'}"
+                        :to="{name: 'Persona'}"
                         class="bp btn-primary"
                     >Modificar</router-link>
 
