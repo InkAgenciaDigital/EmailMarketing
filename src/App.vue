@@ -12,7 +12,7 @@ export default {
   components: {
     Navs
   }
-  
+
 }
 </script>
 
@@ -23,10 +23,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   margin-top: 0px;
-  
+
 }
 
-.btn {
+/* .btn {
     left: 83%;
     text-align:center;
     border:0px;
@@ -56,6 +56,5 @@ position: relative;
 width:120px;
 height:39px;
 color: black;
-}
+} */
 </style>
-

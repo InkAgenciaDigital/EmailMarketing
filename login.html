@@ -2,37 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./sytles.css" type="text/css" media="all">
+    <link rel="stylesheet" Content-Type: "text/css" href="./static/loginsytles.css" type="text/css" media="all">
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-
-            <div class="offset-md-1 col-md-4">
-                <br><br><br> <br> <br> 
-                <br><br><br><br>
-                <form>
-                    <div class="form-group">
-                        <label for="InputEmail"  >Email</label>
-                        <input type="email" class="form-control" id="email" >
-                    </div>
-                    <div class="form-group">
-                        <label for="InputPassword">Password</label>
-                        <input type="password" class="form-control" id="Password">
-                    </div>
-                    <a class="a" href="https://www.inkdigital.co">¿Olvidaste tu contaseña?</a>       
-                    <button type="submit" class=" btn btn-success">Entrar</button> 
-                    
-                </form>
+  <div class="container">
+  <div class="row">
+      <div class="col-md">
+        <div id="formWrapper">
+          <div id="form" class="col-12">
+            <div class="logo" style="text-align: center">
+              <span><img src="logoink.png" width="200" height="150"></span>
             </div>
-            <div class="offset-md-1 col-md-6">
-                <img id="image" src="./image/20531.jpg" class="img-fluid background" alt="">
+            <br>
+            <div class="form-item">
+              <p class="formLabel">Email</p>
+              <input type="email" name="email" id="email" class="form-style" autocomplete="off"/>
             </div>
+            <div class="form-item">
+              <p class="formLabel">Password</p>
+              <input type="password" name="password" id="Password" class="form-style" />
+            </div>
+            <div class="form-item">
+              <input type="submit" class="login pull-right" value="Entrar">
+              <p><a href="https://www.inkdigital.co" ><small>¿Olvidaste el password?</small></a></p>
+              <div class="clear-fix"></div>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
+  </div>
+  </div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="./static/loginjs.js"></script>
 </html>
