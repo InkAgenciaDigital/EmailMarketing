@@ -14,16 +14,22 @@
             <thead class="thead-dark">
                 <tr>
                 <th scope="col">#</th>
-                <th scope="col">Empresa</th>
-                <th scope="col">Tipo de empresa</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">NIT</th>
+                <th scope="col">Dirección</th>
+                <th scope="col">Telefono</th>
+                <th scope="col">Correo</th>
                 <th scope="col">Acción</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                 <th scope="row">1</th>
-                <td> <label class="" for="empresa">Empresa</label> </td>
-                <td> <label class="" for="proyecto">Tipo de empresa</label> </td>
+                <td> <label class="" for="nombre">Nombre</label> </td>
+                <td> <label class="" for="nit">NIT</label> </td>
+                <td> <label class="" for="direccion">Dirección</label> </td>
+                <td> <label class="" for="telefono">Telefono</label> </td>
+                <td> <label class="" for="correo">Correo</label> </td>
                 <td>
 
                      <router-link
@@ -36,8 +42,11 @@
                 </tr>
                 <tr>
                 <th scope="row">2</th>
-                <td> <label class="" for="empresa">Empresa</label> </td>
-                <td> <label class="" for="proyecto">Tipo de empresa</label> </td>
+                <td> <label class="" for="nombre">Nombre</label> </td>
+                <td> <label class="" for="nit">NIT</label> </td>
+                <td> <label class="" for="direccion">Dirección</label> </td>
+                <td> <label class="" for="telefono">Telefono</label> </td>
+                <td> <label class="" for="correo">Correo</label> </td>
                 <td>
                     <router-link
                         :to="{name: 'Empresa'}"
@@ -48,8 +57,11 @@
                 </td>
                 <tr>
                 <th scope="row">3</th>
-                <td> <label class="" for="empresa">Empresa</label> </td>
-                <td> <label class="" for="proyecto">Tipo de empresa</label> </td>
+                <td> <label class="" for="nombre">Nombre</label> </td>
+                <td> <label class="" for="nit">NIT</label> </td>
+                <td> <label class="" for="direccion">Dirección</label> </td>
+                <td> <label class="" for="telefono">Telefono</label> </td>
+                <td> <label class="" for="correo">Correo</label> </td>
                 <td>
                     <router-link
                         :to="{name: 'Empresa'}"

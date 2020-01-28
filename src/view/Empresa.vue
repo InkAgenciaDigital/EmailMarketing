@@ -9,19 +9,35 @@
                     <br>
                     <div class="form-row">
                         <div class="form-group col-md-10">
-                        <label for="empresa">Empresa</label>
+                        <label for="empresa">Nombre de la empresa</label>
                         <input type="text" class="form-control" id="empresa">
                         </div>
-                    
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-10">
-                            <label for="tipo">Tipo empresa</label>
-                                    <select id="tipo" class="form-control">
-                                        <option selected>Tipo empresa</option>  
-                                    </select>
+                        <label for="nit">NIT</label>
+                        <input type="number" class="form-control" id="nit">
                         </div>
                     </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-10">
+                        <label for="direccion">Dirección</label>
+                        <input type="text" class="form-control" id="direccion">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-10">
+                        <label for="telefono">Telefono</label>
+                        <input type="number" class="form-control" id="telefono">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-10">
+                        <label for="correo">Correo</label>
+                        <input type="text" class="form-control" id="correo">
+                        </div>
+                    </div>
+                   
                     
                     <br>
                     <button type="submit" class="btn btn-dark" style="background-color: #344675;">Guardar</button>
