@@ -13,6 +13,11 @@
         <li class="nav-item">
             <router-link
                 :to="{name: 'PrincipalEmpresa'}"
+                class="nav-link"> Empresa</router-link>
+        </li>
+        <li class="nav-item">
+            <router-link
+                :to="{name: 'PrincipalPersona'}"
                 class="nav-link"> Persona</router-link>
         </li>
         <li class="nav-item">

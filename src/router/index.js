@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import Login from '@/view/Login';
 import Empresa from '@/view/Empresa';
 import PrincipalEmpresa from '@/view/PrincipalEmpresa';
+import PrincipalPersona from '@/view/PrincipalPersona';
 import Persona from '@/view/Persona';
 import Proyecto from '@/view/Proyecto';
 import PrincipalProyecto from '@/view/PrincipalProyecto';
@@ -37,6 +38,11 @@ export default new Router({
       path: '/empresa',
       name: 'Empresa',
       component: Empresa
+    },
+    {
+      path: '/principalPersona',
+      name: 'PrincipalPersona',
+      component: PrincipalPersona
     },
     {
       path: '/Persona',
